@@ -1,67 +1,56 @@
-# Getting Started with Create React App
+# Workshop de equipos industriales
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El proyecto simula un workshop para compra de equipos industriales.
 
-## Available Scripts
+## Carpetas
 
-In the project directory, you can run:
+### Cart screen
 
-### `npm start`
+Muestra equipos agregados al carrito.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Cart Widget
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Renderiza el icoo del carrito con cantidad.
 
-### `npm test`
+### Checkout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Muestra formulario para finalizar compra.
 
-### `npm run build`
+### Context
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contexto utilizado para compartir elementos y funcionalidades.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Item
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Renderiza los equipos con su informacion
 
-### `npm run eject`
+### Item count
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Realiza la funcion de sumar productos al carrito.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Item Detail
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Muestra los detalles del equipo a mostrar.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Item detail Container
 
-## Learn More
+Contenedor de Item detail.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Item List 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Mapea los productos  a mostrar
 
-### Code Splitting
+### Item List Container
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contenedor de Item list
 
-### Analyzing the Bundle Size
+### NavBar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Muestra la barra de navegacion
 
-### Making a Progressive Web App
+### Firebase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
+Servicio de base de datos utilizada para la carga de productos y ordenes de compra
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 

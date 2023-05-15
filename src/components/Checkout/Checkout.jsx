@@ -48,19 +48,6 @@ export const Checkout = () => {
         console.log('Ok')
       })
 
-
-
-    carrito.forEach((item) => {
-      const docRef = db.collection('productos').doc(item.id)
-
-      docRef.get()
-        .then((doc) => {
-          docRef.update({
-            stock: doc.data().stock - item.counter
-          })
-        })
-    })
-
   }
 
 
