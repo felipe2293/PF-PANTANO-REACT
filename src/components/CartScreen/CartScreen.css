@@ -1,0 +1,73 @@
+
+.menu{
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.menu2{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.volver{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family:sans-serif;
+    border-radius: 6px;
+    background-color: gray;
+}
+.volver:hover{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family:sans-serif;
+    border-radius: 6px;
+    background-color: gray;
+}
+
+.imagen_prod{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.boton_remover{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border-color: bisque;
+}
+.boton_terminar{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border-color: bisque;
+}
+.boton_terminar:hover{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    border-color: bisque;
+}
+.boton_vaciar{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    border-color: bisque;
+}
+.boton_vaciar:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    border-color: bisque;
+}

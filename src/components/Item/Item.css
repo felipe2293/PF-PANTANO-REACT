@@ -1,0 +1,27 @@
+.img__item{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.producto{
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.boton{
+    background-color: rgb(57, 62, 70);
+    border-color: rgb(57, 62, 70);
+    margin-bottom: 5px;
+}
+
+.boton:hover{
+    background-color: rgb(57, 62, 70);
+    border-color: rgb(57, 62, 70);
+}
+.boton:active{
+    background-color: rgb(57, 62, 70)!important;
+    border-color: rgb(57, 62, 70)!important;
+}
+

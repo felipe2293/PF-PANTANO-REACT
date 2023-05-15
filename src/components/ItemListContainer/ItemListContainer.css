@@ -1,0 +1,22 @@
+.saludo{
+    margin:20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.cuerpo{
+    color: rgb(57, 62, 70);
+}
+body{
+    background-color:rgb(57, 62, 70);
+}
+
+.logo{
+    text-align: center;
+}
+
+.imagen{
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,18 @@
+.menu_check{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.finalizar_compra{
+    margin: 20px;
+}
+.finalizar_compra_boton{
+    margin:5px;
+}
