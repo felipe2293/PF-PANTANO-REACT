@@ -1,6 +1,6 @@
 # Workshop de equipos industriales
 
-El proyecto simula un workshop para compra de equipos industriales.
+El proyecto simula un workshop para compra de equipos industriales. Se hace uso de props, hooks, routers y context para su implementacion, ademas de utilizar el servicio de base de datos de FIREBASE. Para el diseño se utilizó CSS puro y BOOTSTRAP en casos particulares. 
 
 ## Carpetas
 
@@ -52,8 +52,6 @@ Muestra la barra de navegacion
 
 Servicio de base de datos utilizada para la carga de productos y ordenes de compra
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
